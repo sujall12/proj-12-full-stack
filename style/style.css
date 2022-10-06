@@ -347,3 +347,244 @@ a{
     flex-direction: column;
     color:#696e72;
 }
+
+@media screen and (max-width: 768px) {
+    .main-container{
+      height: auto;
+      background: #6a7681;
+    }
+  
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+  
+    .nav-links {
+      gap: 0;
+    }
+  
+    .nav-links li a {
+      display: none;
+    }
+  
+    .nav-btn {
+      display: inline-block;
+      background: transparent;
+      border: 2px solid #acc4dd;
+      padding: none;
+      height: 2rem;
+      width: 5rem;
+      font-size: 0.5rem;
+      border-radius: 4px;
+    }
+  
+    .Image-section {
+      margin: 1rem;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .Image-left img {
+      width: auto;
+      height: 450px;
+    }
+
+    .Image-right {
+      color: #fff;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .title-empowering{
+      font-size: 3rem;
+      font-family: "Raleway", "Poppins";
+    }
+  
+    .title-description{
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      width: auto;
+      margin: 0;
+      margin-top: 0.3rem;
+    }
+  
+    .email-container{
+      background: #fff;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 1rem;
+    }
+  
+    .email{
+      padding: 1.3rem 3rem;
+      font-size: 0.8rem;
+      border: none;
+    }
+  
+    .Image-btn{
+      padding: 1rem 1rem;
+      font-size: 1.1rem;
+      background: rgb(76, 148, 117);
+      border: none;
+    }
+  
+    .container-1{
+      margin: 1rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+  
+    .main-1{
+      font-family: "Poppins";
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .centre-2 .title .card {
+      font-family: "Poppins";
+      font-weight: 550;
+      font-size: 2.4rem;
+    }
+    .scontainer-1 .top {
+      text-align: center;
+      width: auto;
+      margin: auto;
+    }
+    .container-1 .centre-1 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2rem;
+    }
+    .container-1 .End img {
+      width: 100%;
+    }
+  
+    .care-easy-container {
+      margin: 1rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+  
+    .care-card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      gap: 1rem;
+      margin: 0;
+      margin-top: 2rem;
+    }
+  
+    .details .title {
+      font-size: 2rem;
+    }
+  
+    .title {
+      width: auto;
+      margin: auto;
+    }
+  
+    .Details-1{
+      margin: 1rem auto;
+      color: #6a7681;
+      font-size: 1.2rem;
+      line-height: 1.7;
+    }
+
+    .img-1 {
+    }
+    .img-1 img {
+      width: 100%;
+    }
+  
+    .care-card-2 {
+      flex-direction: row-reverse;
+    }
+  
+    .team-container {
+     text-align: center;
+    }
+  
+    .leaders-start {
+      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      text-align: left;
+    }
+  
+    .leaders-card-container {
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 1rem;
+      gap: 2rem;
+    }
+  
+    .leaders-card {
+      width: auto;
+    }
+  
+    .tleaders-card img {
+      width: 100%;
+    }
+  
+    .leader-name{
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  
+    .seemore-btn{
+      margin-top: 3rem;
+      margin-bottom: 7rem;
+    }
+  
+ 
+  
+    footer {
+      background-color: #0c1622;
+      color: #fff;
+      padding: 0;
+    }
+  
+    .footer-heading {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+  
+    .footer-logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(112, 112, 112, 0.393);
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .footer-item {
+        margin: 1.2rem 0;
+        color: rgb(177, 177, 177);
+      }
+  
+    .footer-links-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      margin-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+  
+  }

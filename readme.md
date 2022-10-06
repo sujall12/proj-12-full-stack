@@ -2,7 +2,7 @@
 
 ## By Sujal
 
-## [Link for Project 12](https://businnes-landig-page.netlify.app/) 
+## [Link for Project 12](https://proj-12-mobile-responsive.netlify.app/) 
 
 ![project 12 completed](./screenshot.png)
 
